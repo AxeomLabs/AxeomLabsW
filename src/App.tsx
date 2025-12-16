@@ -56,7 +56,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         {/* <ParticleBackground reduceMotion={reduceMotion} /> */}
-        <div className="relative z-10 flex flex-col min-h-screen">
+        <div className="relative z-10 flex flex-col min-h-screen opacity-100">
           <Navigation />
           <main className="flex-1">
             <Router />
