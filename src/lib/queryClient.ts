@@ -55,3 +55,8 @@ export const queryClient = new QueryClient({
     },
   },
 });
+
+
+if (!url.startsWith("/")) {
+  throw new Error("apiRequest URL must be relative (e.g. /api/...)");
+}
